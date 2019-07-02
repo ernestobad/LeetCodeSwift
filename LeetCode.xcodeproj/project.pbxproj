@@ -55,6 +55,7 @@
 		B4A194412264163D00924A52 /* BestTimeToBuyAndSellStock.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A194402264163D00924A52 /* BestTimeToBuyAndSellStock.swift */; };
 		B4A1944422641CB000924A52 /* ProductOfArrayExceptSelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A1944322641CB000924A52 /* ProductOfArrayExceptSelf.swift */; };
 		B4A194472264256E00924A52 /* SearchInRotatedSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A194462264256E00924A52 /* SearchInRotatedSortedArray.swift */; };
+		B4E8B65C22CAC8540028E8A0 /* LongestPalindromicSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E8B65B22CAC8540028E8A0 /* LongestPalindromicSubstring.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -119,6 +120,7 @@
 		B4A194402264163D00924A52 /* BestTimeToBuyAndSellStock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestTimeToBuyAndSellStock.swift; sourceTree = "<group>"; };
 		B4A1944322641CB000924A52 /* ProductOfArrayExceptSelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductOfArrayExceptSelf.swift; sourceTree = "<group>"; };
 		B4A194462264256E00924A52 /* SearchInRotatedSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchInRotatedSortedArray.swift; sourceTree = "<group>"; };
+		B4E8B65B22CAC8540028E8A0 /* LongestPalindromicSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestPalindromicSubstring.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +156,7 @@
 				B448BF7722532123006AB51E /* 1. Two Sum */,
 				B448BF2F22360287006AB51E /* 2. Add Two Numbers */,
 				B448BF29223494BC006AB51E /* 3. Longest Substring Without Repeating Characters */,
+				B4E8B65A22CAC8320028E8A0 /* 5. Longest Palindromic Substring */,
 				B4679A55226997AB00777911 /* 13. Roman to Integer */,
 				B448BF7A225329C2006AB51E /* 15. 3Sum */,
 				B448BF5C22489D41006AB51E /* 17. Letter Combinations of a Phone Number */,
@@ -563,6 +566,14 @@
 			path = "33. Search in Rotated Sorted Array";
 			sourceTree = "<group>";
 		};
+		B4E8B65A22CAC8320028E8A0 /* 5. Longest Palindromic Substring */ = {
+			isa = PBXGroup;
+			children = (
+				B4E8B65B22CAC8540028E8A0 /* LongestPalindromicSubstring.swift */,
+			);
+			path = "5. Longest Palindromic Substring";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -636,6 +647,7 @@
 				B448BF40223DE099006AB51E /* MeetingRoomsIISolution.swift in Sources */,
 				B44F25E1225C71AF005B22B2 /* KClosestPointsToOrigin.swift in Sources */,
 				B4A194412264163D00924A52 /* BestTimeToBuyAndSellStock.swift in Sources */,
+				B4E8B65C22CAC8540028E8A0 /* LongestPalindromicSubstring.swift in Sources */,
 				B448BF3422362A59006AB51E /* LongestUnivaluePathSolution.swift in Sources */,
 				B448BF7922532134006AB51E /* TwoSumSolution.swift in Sources */,
 				B4A194472264256E00924A52 /* SearchInRotatedSortedArray.swift in Sources */,
