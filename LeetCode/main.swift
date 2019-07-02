@@ -52,4 +52,6 @@ import Foundation
 //LargestRectangleInHistogram.run()
 //TaskScheduler.run()
 //WordLadder.run()
-LongestPalindromicSubstring.run()
+//LongestPalindromicSubstring.run()
+//MergeTwoSortedLists.run()
+MergeSortedArray.run()

@@ -56,6 +56,8 @@
 		B4A1944422641CB000924A52 /* ProductOfArrayExceptSelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A1944322641CB000924A52 /* ProductOfArrayExceptSelf.swift */; };
 		B4A194472264256E00924A52 /* SearchInRotatedSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A194462264256E00924A52 /* SearchInRotatedSortedArray.swift */; };
 		B4E8B65C22CAC8540028E8A0 /* LongestPalindromicSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E8B65B22CAC8540028E8A0 /* LongestPalindromicSubstring.swift */; };
+		B4E8B65F22CB1A3F0028E8A0 /* MergeTwoSortedLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E8B65E22CB1A3F0028E8A0 /* MergeTwoSortedLists.swift */; };
+		B4E8B66222CB33E00028E8A0 /* MergeSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E8B66122CB33E00028E8A0 /* MergeSortedArray.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -121,6 +123,8 @@
 		B4A1944322641CB000924A52 /* ProductOfArrayExceptSelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductOfArrayExceptSelf.swift; sourceTree = "<group>"; };
 		B4A194462264256E00924A52 /* SearchInRotatedSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchInRotatedSortedArray.swift; sourceTree = "<group>"; };
 		B4E8B65B22CAC8540028E8A0 /* LongestPalindromicSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestPalindromicSubstring.swift; sourceTree = "<group>"; };
+		B4E8B65E22CB1A3F0028E8A0 /* MergeTwoSortedLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeTwoSortedLists.swift; sourceTree = "<group>"; };
+		B4E8B66122CB33E00028E8A0 /* MergeSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSortedArray.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +165,7 @@
 				B448BF7A225329C2006AB51E /* 15. 3Sum */,
 				B448BF5C22489D41006AB51E /* 17. Letter Combinations of a Phone Number */,
 				B448BF472240B8C9006AB51E /* 20. Valid Parentheses */,
+				B4E8B65D22CB19D90028E8A0 /* 21. Merge Two Sorted Lists */,
 				B448BF4D2244A422006AB51E /* 22. Generate Parentheses */,
 				B448BF44223F60D7006AB51E /* 23. Merge k Sorted Lists */,
 				B448BF4A2242086B006AB51E /* 31. Next Permutation */,
@@ -173,6 +178,7 @@
 				B4679A52226857C700777911 /* 79. Word Search */,
 				B4679A682271926900777911 /* 84. Largest Rectangle in Histogram */,
 				B4679A58227029EB00777911 /* 85. Maximal Rectangle */,
+				B4E8B66022CB33B90028E8A0 /* 88. Merge Sorted Array */,
 				B4A1943F2264161B00924A52 /* 121. Best Time to Buy and Sell Stock */,
 				B4679A6E22758DF400777911 /* 127. Word Ladder */,
 				B448BF742251CF4A006AB51E /* 128. Longest Consecutive Sequence */,
@@ -574,6 +580,22 @@
 			path = "5. Longest Palindromic Substring";
 			sourceTree = "<group>";
 		};
+		B4E8B65D22CB19D90028E8A0 /* 21. Merge Two Sorted Lists */ = {
+			isa = PBXGroup;
+			children = (
+				B4E8B65E22CB1A3F0028E8A0 /* MergeTwoSortedLists.swift */,
+			);
+			path = "21. Merge Two Sorted Lists";
+			sourceTree = "<group>";
+		};
+		B4E8B66022CB33B90028E8A0 /* 88. Merge Sorted Array */ = {
+			isa = PBXGroup;
+			children = (
+				B4E8B66122CB33E00028E8A0 /* MergeSortedArray.swift */,
+			);
+			path = "88. Merge Sorted Array";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -632,6 +654,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4679A4E2265961000777911 /* MinimumWindowSubstring.swift in Sources */,
+				B4E8B66222CB33E00028E8A0 /* MergeSortedArray.swift in Sources */,
 				B448BF4F2244A443006AB51E /* GenerateParenthesesSolution.swift in Sources */,
 				B448BF822255D464006AB51E /* ReverseLinkedList.swift in Sources */,
 				B448BF582246F807006AB51E /* GameOfLifeSolution.swift in Sources */,
@@ -665,6 +688,7 @@
 				B448BF3A22364066006AB51E /* WordPatternSolution.swift in Sources */,
 				B448BF46223F61A0006AB51E /* MergeKSortedListsSolution.swift in Sources */,
 				B4679A6A2271928B00777911 /* LargestRectangleInHistogram.swift in Sources */,
+				B4E8B65F22CB1A3F0028E8A0 /* MergeTwoSortedLists.swift in Sources */,
 				B448BF7C225329DA006AB51E /* 3SumSolution.swift in Sources */,
 				B448BF7F22547B78006AB51E /* IntegerToEnglishWordsSolution.swift in Sources */,
 				B4679A7022758E1000777911 /* WordLadder.swift in Sources */,
