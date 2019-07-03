@@ -54,4 +54,5 @@ import Foundation
 //WordLadder.run()
 //LongestPalindromicSubstring.run()
 //MergeTwoSortedLists.run()
-MergeSortedArray.run()
+//MergeSortedArray.run()
+AddBinary.run()

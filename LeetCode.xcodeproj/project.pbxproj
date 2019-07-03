@@ -50,6 +50,7 @@
 		B4679A6A2271928B00777911 /* LargestRectangleInHistogram.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4679A692271928B00777911 /* LargestRectangleInHistogram.swift */; };
 		B4679A6D2272D75600777911 /* TaskScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4679A6C2272D75600777911 /* TaskScheduler.swift */; };
 		B4679A7022758E1000777911 /* WordLadder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4679A6F22758E1000777911 /* WordLadder.swift */; };
+		B470596E22CC65E100969BAC /* AddBinary.swift in Sources */ = {isa = PBXBuildFile; fileRef = B470596D22CC65E100969BAC /* AddBinary.swift */; };
 		B4A1943B22629FDB00924A52 /* KthLargestElementInAnArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A1943A22629FDB00924A52 /* KthLargestElementInAnArray.swift */; };
 		B4A1943E2263B46100924A52 /* RemoveInvalidParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A1943D2263B46100924A52 /* RemoveInvalidParentheses.swift */; };
 		B4A194412264163D00924A52 /* BestTimeToBuyAndSellStock.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A194402264163D00924A52 /* BestTimeToBuyAndSellStock.swift */; };
@@ -117,6 +118,7 @@
 		B4679A692271928B00777911 /* LargestRectangleInHistogram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargestRectangleInHistogram.swift; sourceTree = "<group>"; };
 		B4679A6C2272D75600777911 /* TaskScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskScheduler.swift; sourceTree = "<group>"; };
 		B4679A6F22758E1000777911 /* WordLadder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordLadder.swift; sourceTree = "<group>"; };
+		B470596D22CC65E100969BAC /* AddBinary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBinary.swift; sourceTree = "<group>"; };
 		B4A1943A22629FDB00924A52 /* KthLargestElementInAnArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KthLargestElementInAnArray.swift; sourceTree = "<group>"; };
 		B4A1943D2263B46100924A52 /* RemoveInvalidParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveInvalidParentheses.swift; sourceTree = "<group>"; };
 		B4A194402264163D00924A52 /* BestTimeToBuyAndSellStock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestTimeToBuyAndSellStock.swift; sourceTree = "<group>"; };
@@ -174,6 +176,7 @@
 				B448BF6B22507E1E006AB51E /* 50. Pow(x, n) */,
 				B448BF532246B586006AB51E /* 54. Spiral Matrix */,
 				B448BF3B223778DC006AB51E /* 56. Merge Intervals */,
+				B470596C22CC65C400969BAC /* 67. Add Binary */,
 				B4679A4C226595ED00777911 /* 76. Minimum Window Substring */,
 				B4679A52226857C700777911 /* 79. Word Search */,
 				B4679A682271926900777911 /* 84. Largest Rectangle in Histogram */,
@@ -532,6 +535,14 @@
 			path = "127. Word Ladder";
 			sourceTree = "<group>";
 		};
+		B470596C22CC65C400969BAC /* 67. Add Binary */ = {
+			isa = PBXGroup;
+			children = (
+				B470596D22CC65E100969BAC /* AddBinary.swift */,
+			);
+			path = "67. Add Binary";
+			sourceTree = "<group>";
+		};
 		B4A1943922629F8C00924A52 /* 215. Kth Largest Element in an Array */ = {
 			isa = PBXGroup;
 			children = (
@@ -669,6 +680,7 @@
 				B448BF762251CF67006AB51E /* LongestConsecutiveSequenceSolution.swift in Sources */,
 				B448BF40223DE099006AB51E /* MeetingRoomsIISolution.swift in Sources */,
 				B44F25E1225C71AF005B22B2 /* KClosestPointsToOrigin.swift in Sources */,
+				B470596E22CC65E100969BAC /* AddBinary.swift in Sources */,
 				B4A194412264163D00924A52 /* BestTimeToBuyAndSellStock.swift in Sources */,
 				B4E8B65C22CAC8540028E8A0 /* LongestPalindromicSubstring.swift in Sources */,
 				B448BF3422362A59006AB51E /* LongestUnivaluePathSolution.swift in Sources */,
