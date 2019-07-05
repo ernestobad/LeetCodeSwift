@@ -61,4 +61,5 @@ import Foundation
 //MaximumSubarray.run()
 //Subsets.run()
 //TheSkylineProblem1.run()
-EncodeAndDecodeTinyURL.run()
+//EncodeAndDecodeTinyURL.run()
+MultiplyStrings.run()
