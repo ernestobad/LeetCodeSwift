@@ -56,6 +56,8 @@
 		B470597722CD72FF00969BAC /* LowestCommonAncestorOfABinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = B470597622CD72FF00969BAC /* LowestCommonAncestorOfABinaryTree.swift */; };
 		B470597A22CD9F0500969BAC /* MaximumSubarray.swift in Sources */ = {isa = PBXBuildFile; fileRef = B470597922CD9F0500969BAC /* MaximumSubarray.swift */; };
 		B470597D22CDCCF200969BAC /* Subsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = B470597C22CDCCF200969BAC /* Subsets.swift */; };
+		B470598022CEB5C100969BAC /* TheSkylineProblem1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B470597F22CEB5C100969BAC /* TheSkylineProblem1.swift */; };
+		B470598222CEC91B00969BAC /* TheSkylineProblem2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B470598122CEC91B00969BAC /* TheSkylineProblem2.swift */; };
 		B4A1943B22629FDB00924A52 /* KthLargestElementInAnArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A1943A22629FDB00924A52 /* KthLargestElementInAnArray.swift */; };
 		B4A1943E2263B46100924A52 /* RemoveInvalidParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A1943D2263B46100924A52 /* RemoveInvalidParentheses.swift */; };
 		B4A194412264163D00924A52 /* BestTimeToBuyAndSellStock.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A194402264163D00924A52 /* BestTimeToBuyAndSellStock.swift */; };
@@ -129,6 +131,8 @@
 		B470597622CD72FF00969BAC /* LowestCommonAncestorOfABinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowestCommonAncestorOfABinaryTree.swift; sourceTree = "<group>"; };
 		B470597922CD9F0500969BAC /* MaximumSubarray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumSubarray.swift; sourceTree = "<group>"; };
 		B470597C22CDCCF200969BAC /* Subsets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subsets.swift; sourceTree = "<group>"; };
+		B470597F22CEB5C100969BAC /* TheSkylineProblem1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheSkylineProblem1.swift; sourceTree = "<group>"; };
+		B470598122CEC91B00969BAC /* TheSkylineProblem2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheSkylineProblem2.swift; sourceTree = "<group>"; };
 		B4A1943A22629FDB00924A52 /* KthLargestElementInAnArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KthLargestElementInAnArray.swift; sourceTree = "<group>"; };
 		B4A1943D2263B46100924A52 /* RemoveInvalidParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveInvalidParentheses.swift; sourceTree = "<group>"; };
 		B4A194402264163D00924A52 /* BestTimeToBuyAndSellStock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestTimeToBuyAndSellStock.swift; sourceTree = "<group>"; };
@@ -204,6 +208,7 @@
 				B448BF6822506B0A006AB51E /* 173. Binary Search Tree Iterator */,
 				B448BF802255D44B006AB51E /* 206. Reverse Linked List */,
 				B4A1943922629F8C00924A52 /* 215. Kth Largest Element in an Array */,
+				B470597E22CEB5A900969BAC /* 218. The Skyline Problem */,
 				B448BF35223639DF006AB51E /* 219. Contains Duplicate II */,
 				B448BF5F2249EDD1006AB51E /* 224. Basic Calculator */,
 				B470597522CD72CF00969BAC /* 236. Lowest Common Ancestor of a Binary Tree */,
@@ -598,6 +603,15 @@
 			path = "78. Subsets";
 			sourceTree = "<group>";
 		};
+		B470597E22CEB5A900969BAC /* 218. The Skyline Problem */ = {
+			isa = PBXGroup;
+			children = (
+				B470597F22CEB5C100969BAC /* TheSkylineProblem1.swift */,
+				B470598122CEC91B00969BAC /* TheSkylineProblem2.swift */,
+			);
+			path = "218. The Skyline Problem";
+			sourceTree = "<group>";
+		};
 		B4A1943922629F8C00924A52 /* 215. Kth Largest Element in an Array */ = {
 			isa = PBXGroup;
 			children = (
@@ -733,6 +747,7 @@
 				B4679A57226997C400777911 /* RomanToInteger.swift in Sources */,
 				B448BF2E2235EC4F006AB51E /* WordBreakSolution.swift in Sources */,
 				B448BF5E2248A218006AB51E /* LetterCombinationsOfAPhoneNumber.swift in Sources */,
+				B470598222CEC91B00969BAC /* TheSkylineProblem2.swift in Sources */,
 				B448BF492240B8E3006AB51E /* ValidParenthesesSolution.swift in Sources */,
 				B4A1943E2263B46100924A52 /* RemoveInvalidParentheses.swift in Sources */,
 				B448BF762251CF67006AB51E /* LongestConsecutiveSequenceSolution.swift in Sources */,
@@ -752,6 +767,7 @@
 				B4679A512266FCCD00777911 /* GroupAnagrams.swift in Sources */,
 				B448BF522246AF83006AB51E /* SerializeAndDeserializeBinaryTreeSolution.swift in Sources */,
 				B4A1944422641CB000924A52 /* ProductOfArrayExceptSelf.swift in Sources */,
+				B470598022CEB5C100969BAC /* TheSkylineProblem1.swift in Sources */,
 				B470597722CD72FF00969BAC /* LowestCommonAncestorOfABinaryTree.swift in Sources */,
 				B4A1943B22629FDB00924A52 /* KthLargestElementInAnArray.swift in Sources */,
 				B4679A672271789A00777911 /* MaximalRectangle3.swift in Sources */,
