@@ -64,4 +64,5 @@ import Foundation
 //EncodeAndDecodeTinyURL.run()
 //MultiplyStrings.run()
 //PalindromeLinkedList.run()
-CountAndSay.run()
+//CountAndSay.run()
+MissingNumber.run()

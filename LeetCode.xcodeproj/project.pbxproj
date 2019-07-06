@@ -62,6 +62,7 @@
 		B470598822CF2CEC00969BAC /* MultiplyStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B470598722CF2CEC00969BAC /* MultiplyStrings.swift */; };
 		B470598B22D00F2E00969BAC /* PalindromeLinkedList .swift in Sources */ = {isa = PBXBuildFile; fileRef = B470598A22D00F2E00969BAC /* PalindromeLinkedList .swift */; };
 		B470598E22D0213F00969BAC /* CountAndSay.swift in Sources */ = {isa = PBXBuildFile; fileRef = B470598D22D0213F00969BAC /* CountAndSay.swift */; };
+		B470599122D02A1800969BAC /* MissingNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = B470599022D02A1800969BAC /* MissingNumber.swift */; };
 		B4A1943B22629FDB00924A52 /* KthLargestElementInAnArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A1943A22629FDB00924A52 /* KthLargestElementInAnArray.swift */; };
 		B4A1943E2263B46100924A52 /* RemoveInvalidParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A1943D2263B46100924A52 /* RemoveInvalidParentheses.swift */; };
 		B4A194412264163D00924A52 /* BestTimeToBuyAndSellStock.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A194402264163D00924A52 /* BestTimeToBuyAndSellStock.swift */; };
@@ -141,6 +142,7 @@
 		B470598722CF2CEC00969BAC /* MultiplyStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplyStrings.swift; sourceTree = "<group>"; };
 		B470598A22D00F2E00969BAC /* PalindromeLinkedList .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PalindromeLinkedList .swift"; sourceTree = "<group>"; };
 		B470598D22D0213F00969BAC /* CountAndSay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountAndSay.swift; sourceTree = "<group>"; };
+		B470599022D02A1800969BAC /* MissingNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissingNumber.swift; sourceTree = "<group>"; };
 		B4A1943A22629FDB00924A52 /* KthLargestElementInAnArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KthLargestElementInAnArray.swift; sourceTree = "<group>"; };
 		B4A1943D2263B46100924A52 /* RemoveInvalidParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveInvalidParentheses.swift; sourceTree = "<group>"; };
 		B4A194402264163D00924A52 /* BestTimeToBuyAndSellStock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestTimeToBuyAndSellStock.swift; sourceTree = "<group>"; };
@@ -225,6 +227,7 @@
 				B470597522CD72CF00969BAC /* 236. Lowest Common Ancestor of a Binary Tree */,
 				B4A1944222641C8400924A52 /* 238. Product of Array Except Self */,
 				B448BF3E223DE078006AB51E /* 253. Meeting Rooms II */,
+				B470598F22D02A0400969BAC /* 268. Missing Number */,
 				B448BF7D22547B47006AB51E /* 273. Integer to English Words */,
 				B470597222CC881B00969BAC /* 283. Move Zeroes */,
 				B448BF562246F7E1006AB51E /* 289. Game of Life */,
@@ -656,6 +659,14 @@
 			path = "38. Count and Say";
 			sourceTree = "<group>";
 		};
+		B470598F22D02A0400969BAC /* 268. Missing Number */ = {
+			isa = PBXGroup;
+			children = (
+				B470599022D02A1800969BAC /* MissingNumber.swift */,
+			);
+			path = "268. Missing Number";
+			sourceTree = "<group>";
+		};
 		B4A1943922629F8C00924A52 /* 215. Kth Largest Element in an Array */ = {
 			isa = PBXGroup;
 			children = (
@@ -826,6 +837,7 @@
 				B470598822CF2CEC00969BAC /* MultiplyStrings.swift in Sources */,
 				B448BF7C225329DA006AB51E /* 3SumSolution.swift in Sources */,
 				B448BF7F22547B78006AB51E /* IntegerToEnglishWordsSolution.swift in Sources */,
+				B470599122D02A1800969BAC /* MissingNumber.swift in Sources */,
 				B4679A7022758E1000777911 /* WordLadder.swift in Sources */,
 				B448BF732251B873006AB51E /* MinStackSolution.swift in Sources */,
 				B470598B22D00F2E00969BAC /* PalindromeLinkedList .swift in Sources */,
