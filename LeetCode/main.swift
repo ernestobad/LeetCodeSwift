@@ -67,4 +67,5 @@ import Foundation
 //CountAndSay.run()
 //MissingNumber.run()
 //BinaryTreeLevelOrderTraversal.run()
-PalindromicSubstrings.run()
+//PalindromicSubstrings.run()
+Sqrtx.run()
