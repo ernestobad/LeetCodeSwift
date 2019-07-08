@@ -71,4 +71,5 @@ import Foundation
 //Sqrtx.run()
 //StrStr.run()
 //RemoveDuplicatesFromSortedArray.run()
-LowestCommonAncestorOfABinarySearchTree.run()
+//LowestCommonAncestorOfABinarySearchTree.run()
+HammingDistance.run()

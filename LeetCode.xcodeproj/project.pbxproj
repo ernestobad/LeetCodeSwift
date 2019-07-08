@@ -70,6 +70,7 @@
 		B470599F22D1C9A000969BAC /* StrStr.swift in Sources */ = {isa = PBXBuildFile; fileRef = B470599E22D1C9A000969BAC /* StrStr.swift */; };
 		B47059A222D2C63000969BAC /* RemoveDuplicatesFromSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47059A122D2C63000969BAC /* RemoveDuplicatesFromSortedArray.swift */; };
 		B47059A522D2CED200969BAC /* LowestCommonAncestorOfABinarySearchTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47059A422D2CED200969BAC /* LowestCommonAncestorOfABinarySearchTree.swift */; };
+		B47059A822D2D94800969BAC /* HammingDistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47059A722D2D94800969BAC /* HammingDistance.swift */; };
 		B4A1943B22629FDB00924A52 /* KthLargestElementInAnArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A1943A22629FDB00924A52 /* KthLargestElementInAnArray.swift */; };
 		B4A1943E2263B46100924A52 /* RemoveInvalidParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A1943D2263B46100924A52 /* RemoveInvalidParentheses.swift */; };
 		B4A194412264163D00924A52 /* BestTimeToBuyAndSellStock.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A194402264163D00924A52 /* BestTimeToBuyAndSellStock.swift */; };
@@ -157,6 +158,7 @@
 		B470599E22D1C9A000969BAC /* StrStr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrStr.swift; sourceTree = "<group>"; };
 		B47059A122D2C63000969BAC /* RemoveDuplicatesFromSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveDuplicatesFromSortedArray.swift; sourceTree = "<group>"; };
 		B47059A422D2CED200969BAC /* LowestCommonAncestorOfABinarySearchTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowestCommonAncestorOfABinarySearchTree.swift; sourceTree = "<group>"; };
+		B47059A722D2D94800969BAC /* HammingDistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HammingDistance.swift; sourceTree = "<group>"; };
 		B4A1943A22629FDB00924A52 /* KthLargestElementInAnArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KthLargestElementInAnArray.swift; sourceTree = "<group>"; };
 		B4A1943D2263B46100924A52 /* RemoveInvalidParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveInvalidParentheses.swift; sourceTree = "<group>"; };
 		B4A194402264163D00924A52 /* BestTimeToBuyAndSellStock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestTimeToBuyAndSellStock.swift; sourceTree = "<group>"; };
@@ -256,6 +258,7 @@
 				B448BF65224C9DB9006AB51E /* 336. Palindrome Pairs */,
 				B448BF6E2251ADB2006AB51E /* 341. Flatten Nested List Iterator */,
 				B448BF62224B4136006AB51E /* 394. Decode String */,
+				B47059A622D2D93400969BAC /* 461. Hamming Distance */,
 				B470598322CF246200969BAC /* 535. Encode and Decode TinyURL */,
 				B448BF5922489737006AB51E /* 560. Subarray Sum Equals K */,
 				B4679A6B2272D72700777911 /* 621. Task Scheduler */,
@@ -736,6 +739,14 @@
 			path = "235. Lowest Common Ancestor of a Binary Search Tree";
 			sourceTree = "<group>";
 		};
+		B47059A622D2D93400969BAC /* 461. Hamming Distance */ = {
+			isa = PBXGroup;
+			children = (
+				B47059A722D2D94800969BAC /* HammingDistance.swift */,
+			);
+			path = "461. Hamming Distance";
+			sourceTree = "<group>";
+		};
 		B4A1943922629F8C00924A52 /* 215. Kth Largest Element in an Array */ = {
 			isa = PBXGroup;
 			children = (
@@ -877,6 +888,7 @@
 				B4A1943E2263B46100924A52 /* RemoveInvalidParentheses.swift in Sources */,
 				B448BF762251CF67006AB51E /* LongestConsecutiveSequenceSolution.swift in Sources */,
 				B448BF40223DE099006AB51E /* MeetingRoomsIISolution.swift in Sources */,
+				B47059A822D2D94800969BAC /* HammingDistance.swift in Sources */,
 				B44F25E1225C71AF005B22B2 /* KClosestPointsToOrigin.swift in Sources */,
 				B470596E22CC65E100969BAC /* AddBinary.swift in Sources */,
 				B4A194412264163D00924A52 /* BestTimeToBuyAndSellStock.swift in Sources */,
