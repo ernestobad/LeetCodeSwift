@@ -68,6 +68,8 @@
 		B470599922D1B7E900969BAC /* PalindromicSubstrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B470599822D1B7E900969BAC /* PalindromicSubstrings.swift */; };
 		B470599C22D1C21E00969BAC /* Sqrtx.swift in Sources */ = {isa = PBXBuildFile; fileRef = B470599B22D1C21E00969BAC /* Sqrtx.swift */; };
 		B470599F22D1C9A000969BAC /* StrStr.swift in Sources */ = {isa = PBXBuildFile; fileRef = B470599E22D1C9A000969BAC /* StrStr.swift */; };
+		B47059A222D2C63000969BAC /* RemoveDuplicatesFromSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47059A122D2C63000969BAC /* RemoveDuplicatesFromSortedArray.swift */; };
+		B47059A522D2CED200969BAC /* LowestCommonAncestorOfABinarySearchTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47059A422D2CED200969BAC /* LowestCommonAncestorOfABinarySearchTree.swift */; };
 		B4A1943B22629FDB00924A52 /* KthLargestElementInAnArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A1943A22629FDB00924A52 /* KthLargestElementInAnArray.swift */; };
 		B4A1943E2263B46100924A52 /* RemoveInvalidParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A1943D2263B46100924A52 /* RemoveInvalidParentheses.swift */; };
 		B4A194412264163D00924A52 /* BestTimeToBuyAndSellStock.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A194402264163D00924A52 /* BestTimeToBuyAndSellStock.swift */; };
@@ -153,6 +155,8 @@
 		B470599822D1B7E900969BAC /* PalindromicSubstrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromicSubstrings.swift; sourceTree = "<group>"; };
 		B470599B22D1C21E00969BAC /* Sqrtx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sqrtx.swift; sourceTree = "<group>"; };
 		B470599E22D1C9A000969BAC /* StrStr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrStr.swift; sourceTree = "<group>"; };
+		B47059A122D2C63000969BAC /* RemoveDuplicatesFromSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveDuplicatesFromSortedArray.swift; sourceTree = "<group>"; };
+		B47059A422D2CED200969BAC /* LowestCommonAncestorOfABinarySearchTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowestCommonAncestorOfABinarySearchTree.swift; sourceTree = "<group>"; };
 		B4A1943A22629FDB00924A52 /* KthLargestElementInAnArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KthLargestElementInAnArray.swift; sourceTree = "<group>"; };
 		B4A1943D2263B46100924A52 /* RemoveInvalidParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveInvalidParentheses.swift; sourceTree = "<group>"; };
 		B4A194402264163D00924A52 /* BestTimeToBuyAndSellStock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestTimeToBuyAndSellStock.swift; sourceTree = "<group>"; };
@@ -205,6 +209,7 @@
 				B448BF4D2244A422006AB51E /* 22. Generate Parentheses */,
 				B448BF44223F60D7006AB51E /* 23. Merge k Sorted Lists */,
 				B470596F22CC762D00969BAC /* 25. Reverse Nodes in k-Group */,
+				B47059A022D2C61500969BAC /* 26. Remove Duplicates from Sorted Array */,
 				B470599D22D1C97800969BAC /* 28. Implement strStr() */,
 				B448BF4A2242086B006AB51E /* 31. Next Permutation */,
 				B4A194452264254F00924A52 /* 33. Search in Rotated Sorted Array */,
@@ -237,6 +242,7 @@
 				B448BF35223639DF006AB51E /* 219. Contains Duplicate II */,
 				B448BF5F2249EDD1006AB51E /* 224. Basic Calculator */,
 				B470598922D00F0C00969BAC /* 234. Palindrome Linked List  */,
+				B47059A322D2CEB100969BAC /* 235. Lowest Common Ancestor of a Binary Search Tree */,
 				B470597522CD72CF00969BAC /* 236. Lowest Common Ancestor of a Binary Tree */,
 				B4A1944222641C8400924A52 /* 238. Product of Array Except Self */,
 				B448BF3E223DE078006AB51E /* 253. Meeting Rooms II */,
@@ -714,6 +720,22 @@
 			path = "28. Implement strStr()";
 			sourceTree = "<group>";
 		};
+		B47059A022D2C61500969BAC /* 26. Remove Duplicates from Sorted Array */ = {
+			isa = PBXGroup;
+			children = (
+				B47059A122D2C63000969BAC /* RemoveDuplicatesFromSortedArray.swift */,
+			);
+			path = "26. Remove Duplicates from Sorted Array";
+			sourceTree = "<group>";
+		};
+		B47059A322D2CEB100969BAC /* 235. Lowest Common Ancestor of a Binary Search Tree */ = {
+			isa = PBXGroup;
+			children = (
+				B47059A422D2CED200969BAC /* LowestCommonAncestorOfABinarySearchTree.swift */,
+			);
+			path = "235. Lowest Common Ancestor of a Binary Search Tree";
+			sourceTree = "<group>";
+		};
 		B4A1943922629F8C00924A52 /* 215. Kth Largest Element in an Array */ = {
 			isa = PBXGroup;
 			children = (
@@ -883,6 +905,7 @@
 				B448BF46223F61A0006AB51E /* MergeKSortedListsSolution.swift in Sources */,
 				B4679A6A2271928B00777911 /* LargestRectangleInHistogram.swift in Sources */,
 				B4E8B65F22CB1A3F0028E8A0 /* MergeTwoSortedLists.swift in Sources */,
+				B47059A222D2C63000969BAC /* RemoveDuplicatesFromSortedArray.swift in Sources */,
 				B470598822CF2CEC00969BAC /* MultiplyStrings.swift in Sources */,
 				B448BF7C225329DA006AB51E /* 3SumSolution.swift in Sources */,
 				B448BF7F22547B78006AB51E /* IntegerToEnglishWordsSolution.swift in Sources */,
@@ -890,6 +913,7 @@
 				B4679A7022758E1000777911 /* WordLadder.swift in Sources */,
 				B448BF732251B873006AB51E /* MinStackSolution.swift in Sources */,
 				B470599722D1825400969BAC /* PalindromicSubstrings2.swift in Sources */,
+				B47059A522D2CED200969BAC /* LowestCommonAncestorOfABinarySearchTree.swift in Sources */,
 				B470598B22D00F2E00969BAC /* PalindromeLinkedList .swift in Sources */,
 				B448BF28223491E1006AB51E /* UniqueEmailAddressesSolution.swift in Sources */,
 				B4679A5A22702A1400777911 /* MaximalRectangle2.swift in Sources */,
