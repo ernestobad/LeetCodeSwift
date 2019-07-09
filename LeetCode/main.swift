@@ -72,4 +72,5 @@ import Foundation
 //StrStr.run()
 //RemoveDuplicatesFromSortedArray.run()
 //LowestCommonAncestorOfABinarySearchTree.run()
-HammingDistance.run()
+//HammingDistance.run()
+ReverseInteger.run()

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9465F4CB22D424D300EC6258 /* ReverseInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9465F4CA22D424D300EC6258 /* ReverseInteger.swift */; };
 		B448BF2022349167006AB51E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B448BF1F22349167006AB51E /* main.swift */; };
 		B448BF28223491E1006AB51E /* UniqueEmailAddressesSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = B448BF27223491E1006AB51E /* UniqueEmailAddressesSolution.swift */; };
 		B448BF2B223494FA006AB51E /* LongestSubstringWithoutRepeatingCharactersSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = B448BF2A223494FA006AB51E /* LongestSubstringWithoutRepeatingCharactersSolution.swift */; };
@@ -94,6 +95,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9465F4CA22D424D300EC6258 /* ReverseInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseInteger.swift; sourceTree = "<group>"; };
 		B448BF1C22349167006AB51E /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		B448BF1F22349167006AB51E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		B448BF27223491E1006AB51E /* UniqueEmailAddressesSolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniqueEmailAddressesSolution.swift; sourceTree = "<group>"; };
@@ -180,6 +182,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9465F4C922D424BD00EC6258 /* 7. Reverse Integer */ = {
+			isa = PBXGroup;
+			children = (
+				9465F4CA22D424D300EC6258 /* ReverseInteger.swift */,
+			);
+			path = "7. Reverse Integer";
+			sourceTree = "<group>";
+		};
 		B448BF1322349166006AB51E = {
 			isa = PBXGroup;
 			children = (
@@ -203,6 +213,7 @@
 				B448BF2F22360287006AB51E /* 2. Add Two Numbers */,
 				B448BF29223494BC006AB51E /* 3. Longest Substring Without Repeating Characters */,
 				B4E8B65A22CAC8320028E8A0 /* 5. Longest Palindromic Substring */,
+				9465F4C922D424BD00EC6258 /* 7. Reverse Integer */,
 				B4679A55226997AB00777911 /* 13. Roman to Integer */,
 				B448BF7A225329C2006AB51E /* 15. 3Sum */,
 				B448BF5C22489D41006AB51E /* 17. Letter Combinations of a Phone Number */,
@@ -904,6 +915,7 @@
 				B470599C22D1C21E00969BAC /* Sqrtx.swift in Sources */,
 				B4679A512266FCCD00777911 /* GroupAnagrams.swift in Sources */,
 				B448BF522246AF83006AB51E /* SerializeAndDeserializeBinaryTreeSolution.swift in Sources */,
+				9465F4CB22D424D300EC6258 /* ReverseInteger.swift in Sources */,
 				B4A1944422641CB000924A52 /* ProductOfArrayExceptSelf.swift in Sources */,
 				B470598022CEB5C100969BAC /* TheSkylineProblem1.swift in Sources */,
 				B470597722CD72FF00969BAC /* LowestCommonAncestorOfABinaryTree.swift in Sources */,
