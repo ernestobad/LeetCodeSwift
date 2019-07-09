@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9465F4CB22D424D300EC6258 /* ReverseInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9465F4CA22D424D300EC6258 /* ReverseInteger.swift */; };
+		9465F4CE22D46C5C00EC6258 /* FindMedianFromDataStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9465F4CD22D46C5C00EC6258 /* FindMedianFromDataStream.swift */; };
 		B448BF2022349167006AB51E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B448BF1F22349167006AB51E /* main.swift */; };
 		B448BF28223491E1006AB51E /* UniqueEmailAddressesSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = B448BF27223491E1006AB51E /* UniqueEmailAddressesSolution.swift */; };
 		B448BF2B223494FA006AB51E /* LongestSubstringWithoutRepeatingCharactersSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = B448BF2A223494FA006AB51E /* LongestSubstringWithoutRepeatingCharactersSolution.swift */; };
@@ -96,6 +97,7 @@
 
 /* Begin PBXFileReference section */
 		9465F4CA22D424D300EC6258 /* ReverseInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseInteger.swift; sourceTree = "<group>"; };
+		9465F4CD22D46C5C00EC6258 /* FindMedianFromDataStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMedianFromDataStream.swift; sourceTree = "<group>"; };
 		B448BF1C22349167006AB51E /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		B448BF1F22349167006AB51E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		B448BF27223491E1006AB51E /* UniqueEmailAddressesSolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniqueEmailAddressesSolution.swift; sourceTree = "<group>"; };
@@ -190,6 +192,14 @@
 			path = "7. Reverse Integer";
 			sourceTree = "<group>";
 		};
+		9465F4CC22D46C4100EC6258 /* 295. Find Median from Data Stream */ = {
+			isa = PBXGroup;
+			children = (
+				9465F4CD22D46C5C00EC6258 /* FindMedianFromDataStream.swift */,
+			);
+			path = "295. Find Median from Data Stream";
+			sourceTree = "<group>";
+		};
 		B448BF1322349166006AB51E = {
 			isa = PBXGroup;
 			children = (
@@ -264,6 +274,7 @@
 				B470597222CC881B00969BAC /* 283. Move Zeroes */,
 				B448BF562246F7E1006AB51E /* 289. Game of Life */,
 				B448BF3822364053006AB51E /* 290. Word Pattern */,
+				9465F4CC22D46C4100EC6258 /* 295. Find Median from Data Stream */,
 				B448BF502246AF59006AB51E /* 297. Serialize and Deserialize Binary Tree */,
 				B4A1943C2263B42700924A52 /* 301. Remove Invalid Parentheses */,
 				B448BF65224C9DB9006AB51E /* 336. Palindrome Pairs */,
@@ -927,6 +938,7 @@
 				B448BF64224B415E006AB51E /* DecodeStringSolution.swift in Sources */,
 				B448BF3A22364066006AB51E /* WordPatternSolution.swift in Sources */,
 				B448BF46223F61A0006AB51E /* MergeKSortedListsSolution.swift in Sources */,
+				9465F4CE22D46C5C00EC6258 /* FindMedianFromDataStream.swift in Sources */,
 				B4679A6A2271928B00777911 /* LargestRectangleInHistogram.swift in Sources */,
 				B4E8B65F22CB1A3F0028E8A0 /* MergeTwoSortedLists.swift in Sources */,
 				B47059A222D2C63000969BAC /* RemoveDuplicatesFromSortedArray.swift in Sources */,
