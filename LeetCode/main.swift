@@ -74,4 +74,5 @@ import Foundation
 //LowestCommonAncestorOfABinarySearchTree.run()
 //HammingDistance.run()
 //ReverseInteger.run()
-FindMedianFromDataStream.run()
+//FindMedianFromDataStream.run()
+FirstUniqueCharacterInAString.run()
