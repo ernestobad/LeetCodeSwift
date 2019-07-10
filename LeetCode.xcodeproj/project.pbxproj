@@ -10,6 +10,7 @@
 		9465F4CB22D424D300EC6258 /* ReverseInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9465F4CA22D424D300EC6258 /* ReverseInteger.swift */; };
 		9465F4CE22D46C5C00EC6258 /* FindMedianFromDataStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9465F4CD22D46C5C00EC6258 /* FindMedianFromDataStream.swift */; };
 		9465F4D122D4794200EC6258 /* FirstUniqueCharacterInAString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9465F4D022D4794200EC6258 /* FirstUniqueCharacterInAString.swift */; };
+		9465F4D422D5BB3B00EC6258 /* BurstBalloons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9465F4D322D5BB3B00EC6258 /* BurstBalloons.swift */; };
 		B448BF2022349167006AB51E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B448BF1F22349167006AB51E /* main.swift */; };
 		B448BF28223491E1006AB51E /* UniqueEmailAddressesSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = B448BF27223491E1006AB51E /* UniqueEmailAddressesSolution.swift */; };
 		B448BF2B223494FA006AB51E /* LongestSubstringWithoutRepeatingCharactersSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = B448BF2A223494FA006AB51E /* LongestSubstringWithoutRepeatingCharactersSolution.swift */; };
@@ -100,6 +101,7 @@
 		9465F4CA22D424D300EC6258 /* ReverseInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseInteger.swift; sourceTree = "<group>"; };
 		9465F4CD22D46C5C00EC6258 /* FindMedianFromDataStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMedianFromDataStream.swift; sourceTree = "<group>"; };
 		9465F4D022D4794200EC6258 /* FirstUniqueCharacterInAString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstUniqueCharacterInAString.swift; sourceTree = "<group>"; };
+		9465F4D322D5BB3B00EC6258 /* BurstBalloons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurstBalloons.swift; sourceTree = "<group>"; };
 		B448BF1C22349167006AB51E /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		B448BF1F22349167006AB51E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		B448BF27223491E1006AB51E /* UniqueEmailAddressesSolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniqueEmailAddressesSolution.swift; sourceTree = "<group>"; };
@@ -210,6 +212,14 @@
 			path = "387. First Unique Character in a String";
 			sourceTree = "<group>";
 		};
+		9465F4D222D5BB2500EC6258 /* 312. Burst Balloons */ = {
+			isa = PBXGroup;
+			children = (
+				9465F4D322D5BB3B00EC6258 /* BurstBalloons.swift */,
+			);
+			path = "312. Burst Balloons";
+			sourceTree = "<group>";
+		};
 		B448BF1322349166006AB51E = {
 			isa = PBXGroup;
 			children = (
@@ -287,6 +297,7 @@
 				9465F4CC22D46C4100EC6258 /* 295. Find Median from Data Stream */,
 				B448BF502246AF59006AB51E /* 297. Serialize and Deserialize Binary Tree */,
 				B4A1943C2263B42700924A52 /* 301. Remove Invalid Parentheses */,
+				9465F4D222D5BB2500EC6258 /* 312. Burst Balloons */,
 				B448BF65224C9DB9006AB51E /* 336. Palindrome Pairs */,
 				B448BF6E2251ADB2006AB51E /* 341. Flatten Nested List Iterator */,
 				9465F4CF22D4792700EC6258 /* 387. First Unique Character in a String */,
@@ -925,6 +936,7 @@
 				B47059A822D2D94800969BAC /* HammingDistance.swift in Sources */,
 				B44F25E1225C71AF005B22B2 /* KClosestPointsToOrigin.swift in Sources */,
 				B470596E22CC65E100969BAC /* AddBinary.swift in Sources */,
+				9465F4D422D5BB3B00EC6258 /* BurstBalloons.swift in Sources */,
 				B4A194412264163D00924A52 /* BestTimeToBuyAndSellStock.swift in Sources */,
 				B470597D22CDCCF200969BAC /* Subsets.swift in Sources */,
 				B4E8B65C22CAC8540028E8A0 /* LongestPalindromicSubstring.swift in Sources */,
