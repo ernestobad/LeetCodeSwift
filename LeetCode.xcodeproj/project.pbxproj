@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9457FD7C25F5AD3D003AB885 /* SockMerchantSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9457FD7B25F5AD3D003AB885 /* SockMerchantSolution.swift */; };
+		9457FD8125F5AEB3003AB885 /* 2dArraySolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9457FD8025F5AEB3003AB885 /* 2dArraySolution.swift */; };
+		9457FD8625F61DCB003AB885 /* DesignHashMapSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9457FD8525F61DCB003AB885 /* DesignHashMapSolution.swift */; };
 		9465F4CB22D424D300EC6258 /* ReverseInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9465F4CA22D424D300EC6258 /* ReverseInteger.swift */; };
 		9465F4CE22D46C5C00EC6258 /* FindMedianFromDataStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9465F4CD22D46C5C00EC6258 /* FindMedianFromDataStream.swift */; };
 		9465F4D122D4794200EC6258 /* FirstUniqueCharacterInAString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9465F4D022D4794200EC6258 /* FirstUniqueCharacterInAString.swift */; };
@@ -100,6 +103,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9457FD7B25F5AD3D003AB885 /* SockMerchantSolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SockMerchantSolution.swift; sourceTree = "<group>"; };
+		9457FD8025F5AEB3003AB885 /* 2dArraySolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2dArraySolution.swift; sourceTree = "<group>"; };
+		9457FD8525F61DCB003AB885 /* DesignHashMapSolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignHashMapSolution.swift; sourceTree = "<group>"; };
 		9465F4CA22D424D300EC6258 /* ReverseInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseInteger.swift; sourceTree = "<group>"; };
 		9465F4CD22D46C5C00EC6258 /* FindMedianFromDataStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMedianFromDataStream.swift; sourceTree = "<group>"; };
 		9465F4D022D4794200EC6258 /* FirstUniqueCharacterInAString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstUniqueCharacterInAString.swift; sourceTree = "<group>"; };
@@ -192,6 +198,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9457FD7925F5AC67003AB885 /* HackerRank */ = {
+			isa = PBXGroup;
+			children = (
+				9457FD7F25F5AEA1003AB885 /* 2d-array */,
+				9457FD7A25F5AD20003AB885 /* sock-merchant */,
+			);
+			path = HackerRank;
+			sourceTree = "<group>";
+		};
+		9457FD7A25F5AD20003AB885 /* sock-merchant */ = {
+			isa = PBXGroup;
+			children = (
+				9457FD7B25F5AD3D003AB885 /* SockMerchantSolution.swift */,
+			);
+			path = "sock-merchant";
+			sourceTree = "<group>";
+		};
+		9457FD7F25F5AEA1003AB885 /* 2d-array */ = {
+			isa = PBXGroup;
+			children = (
+				9457FD8025F5AEB3003AB885 /* 2dArraySolution.swift */,
+			);
+			path = "2d-array";
+			sourceTree = "<group>";
+		};
+		9457FD8425F61D9F003AB885 /* 706. Design HashMap */ = {
+			isa = PBXGroup;
+			children = (
+				9457FD8525F61DCB003AB885 /* DesignHashMapSolution.swift */,
+			);
+			path = "706. Design HashMap";
+			sourceTree = "<group>";
+		};
 		9465F4C922D424BD00EC6258 /* 7. Reverse Integer */ = {
 			isa = PBXGroup;
 			children = (
@@ -243,7 +282,9 @@
 		B448BF1322349166006AB51E = {
 			isa = PBXGroup;
 			children = (
+				9457FD7925F5AC67003AB885 /* HackerRank */,
 				B448BF1E22349167006AB51E /* LeetCode */,
+				B448BF1F22349167006AB51E /* main.swift */,
 				B448BF1D22349167006AB51E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -330,9 +371,9 @@
 				B4679A6B2272D72700777911 /* 621. Task Scheduler */,
 				B470599522D1824000969BAC /* 647. Palindromic Substrings */,
 				B448BF3222362A3F006AB51E /* 687. Longest Univalue Path */,
+				9457FD8425F61D9F003AB885 /* 706. Design HashMap */,
 				B448BF262234917A006AB51E /* 929. Unique Email Addresses  */,
 				B44F25DF225C7186005B22B2 /* 973. K Closest Points to Origin */,
-				B448BF1F22349167006AB51E /* main.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -956,6 +997,7 @@
 				B448BF762251CF67006AB51E /* LongestConsecutiveSequenceSolution.swift in Sources */,
 				9465F4D122D4794200EC6258 /* FirstUniqueCharacterInAString.swift in Sources */,
 				B448BF40223DE099006AB51E /* MeetingRoomsIISolution.swift in Sources */,
+				9457FD8625F61DCB003AB885 /* DesignHashMapSolution.swift in Sources */,
 				B47059A822D2D94800969BAC /* HammingDistance.swift in Sources */,
 				B44F25E1225C71AF005B22B2 /* KClosestPointsToOrigin.swift in Sources */,
 				B470596E22CC65E100969BAC /* AddBinary.swift in Sources */,
@@ -968,6 +1010,7 @@
 				B4A194472264256E00924A52 /* SearchInRotatedSortedArray.swift in Sources */,
 				B4679A54226857DC00777911 /* WordSearch.swift in Sources */,
 				B448BF5B2248976A006AB51E /* SubarraySumEqualsKSolution.swift in Sources */,
+				9457FD8125F5AEB3003AB885 /* 2dArraySolution.swift in Sources */,
 				B448BF2022349167006AB51E /* main.swift in Sources */,
 				B448BF43223F48B7006AB51E /* LRUCacheSolution.swift in Sources */,
 				B470599C22D1C21E00969BAC /* Sqrtx.swift in Sources */,
@@ -982,6 +1025,7 @@
 				B4679A672271789A00777911 /* MaximalRectangle3.swift in Sources */,
 				B448BF552246B5A6006AB51E /* SpiralMatrixSolution.swift in Sources */,
 				B470599922D1B7E900969BAC /* PalindromicSubstrings.swift in Sources */,
+				9457FD7C25F5AD3D003AB885 /* SockMerchantSolution.swift in Sources */,
 				B448BF64224B415E006AB51E /* DecodeStringSolution.swift in Sources */,
 				B448BF3A22364066006AB51E /* WordPatternSolution.swift in Sources */,
 				B448BF46223F61A0006AB51E /* MergeKSortedListsSolution.swift in Sources */,
@@ -1140,7 +1184,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YJN688M6KB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -1151,7 +1195,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YJN688M6KB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};

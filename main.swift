@@ -78,4 +78,6 @@ import Foundation
 //FirstUniqueCharacterInAString.run()
 //BurstBalloons.run()
 //AddStrings.run()
-SearchA2DMatrix2.run()
+//SearchA2DMatrix2.run()
+//SockMerchantSolution.run()
+HackerRankSolutions.run()
